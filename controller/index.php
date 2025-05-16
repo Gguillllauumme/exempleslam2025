@@ -2,6 +2,6 @@
 
 $header = 'Viva Git & GitHub';
 
-view('/home.view.php', [
+view('/home.view.php', compact([
     'header',
-]);
+]));
