@@ -10,3 +10,5 @@ $router->get('/localisation', 'localisation.php', 'localisation');
 
 $router->get('/notre-equipe', 'screw/index.php', 'screw_index');
 $router->get('/notre-equipe/[s:fname]', 'screw/show.php', 'screw_show');
+
+$router->get('/login', 'login.php', 'login');
